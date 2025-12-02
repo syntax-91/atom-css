@@ -1,6 +1,6 @@
 {
     "name": "g-atom-css",
-    "version": "1.0.8",
+    "version": "1.0.9",
     "description": "Минималистичный CSS фреймворк",
     "main": "index.css",
     "style": "index.css",
