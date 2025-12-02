@@ -1,5 +1,5 @@
 {
-    "name": "atom-css",
+    "name": "g-atom-css",
     "version": "1.0.1",
     "description": "Минималистичный CSS фреймворк",
     "main": "index.css",
