@@ -1,19 +1,11 @@
 {
     "name": "g-atom-css",
-    "version": "1.0.6",
+    "version": "1.0.7",
     "description": "Минималистичный CSS фреймворк",
     "main": "index.css",
     "style": "index.css",
-    "types": "index.d.ts",
-    "exports": {
-        ".": {
-            "import": "./index.css",
-            "package": "./package.json"
-        }
-    },
     "files": [
-        "index.css",
-        "index.d.ts"
+        "index.css"
     ],
     "keywords": [
         "css",
