@@ -6,4 +6,4 @@ index.html - < link rel="stylesheet" href="./index.css">
 
 # react
 
--   main.jsx - import 'atom-css'
+-   main.jsx - import 'g-atom-css'
