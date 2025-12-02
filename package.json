@@ -1,9 +1,15 @@
 {
     "name": "atom-css",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Минималистичный CSS фреймворк",
     "main": "index.css",
     "style": "index.css",
+    "exports": {
+        ".": {
+            "import": "./index.css",
+            "package": "./package.json"
+        }
+    },
     "files": [
         "index.css"
     ],
