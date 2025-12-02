@@ -1,0 +1,17 @@
+{
+    "name": "atom-css",
+    "version": "1.0.0",
+    "description": "Минималистичный CSS фреймворк",
+    "main": "index.css",
+    "style": "index.css",
+    "files": [
+        "index.css"
+    ],
+    "keywords": [
+        "css",
+        "utility",
+        "framework"
+    ],
+    "author": "syntax_real",
+    "license": "MIT"
+}
