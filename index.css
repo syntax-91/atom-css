@@ -218,53 +218,68 @@
 /* my - margin Y */
 
 .g_my-sm {
-    margin: 4px 0;
+    margin-top: 4px;
+    margin-bottom: 4px;
 }
 
 .g_my-md {
-    margin: 8px 0;
+    margin-top: 8px;
+    margin-bottom: 8px;
 }
 
 .g_my-lg {
-    margin: 16px 0;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.g_my-xl {
+    margin-top: 64px;
+    margin-bottom: 64px;
+}
+
+.g_my-xl {
+    margin-top: 128px;
+    margin-bottom: 64px;
 }
 
 .g_my-2xl {
-    margin: 64px 0;
-}
-
-.g_my-3xl {
     margin: 128px 0;
 }
 
-.g_my-4xl {
+.g_my-3xl {
     margin: 256px 0;
 }
 
 /* mx - margin X */
 
 .g_mx-sm {
-    margin: 0 4px;
+    margin-left: 4px;
+    margin-right: 4px;
 }
 
 .g_mx-md {
-    margin: 0 8px;
+    margin-left: 8px;
+    margin-right: 8px;
 }
 
 .g_mx-lg {
-    margin: 0 16px;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.g_mx-xl {
+    margin-left: 64px;
+    margin-right: 64px;
 }
 
 .g_mx-2xl {
-    margin: 0 64px;
+    margin-left: 128px;
+    margin-right: 128px;
 }
 
 .g_mx-3xl {
-    margin: 0 128px;
-}
-
-.g_mx-4xl {
-    margin: 0 256px;
+    margin-left: 256px;
+    margin-right: 256px;
 }
 
 /* ml - margin left */
@@ -280,15 +295,15 @@
     margin-left: 16px;
 }
 
-.g_ml-2xl {
+.g_ml-xl {
     margin-left: 64px;
 }
 
-.g_ml-3xl {
+.g_ml-2xl {
     margin-left: 128px;
 }
 
-.g_ml-4xl {
+.g_ml-3xl {
     margin-left: 256px;
 }
 
@@ -306,15 +321,15 @@
     margin-right: 16px;
 }
 
-.g_mr-2xl {
+.g_mr-xl {
     margin-right: 64px;
 }
 
-.g_mr-3xl {
+.g_mr-2xl {
     margin-right: 128px;
 }
 
-.g_mr-4xl {
+.g_mr-3xl {
     margin-right: 256px;
 }
 
@@ -332,15 +347,15 @@
     margin-top: 16px;
 }
 
-.g_mt-2xl {
+.g_mt-xl {
     margin-top: 64px;
 }
 
-.g_mt-3xl {
+.g_mt-2xl {
     margin-top: 128px;
 }
 
-.g_mt-4xl {
+.g_mt-3xl {
     margin-top: 256px;
 }
 
@@ -358,15 +373,15 @@
     margin-bottom: 16px;
 }
 
-.g_mb-2xl {
+.g_mb-xl {
     margin-bottom: 64px;
 }
 
-.g_mb-3xl {
+.g_mb-2xl {
     margin-bottom: 128px;
 }
 
-.g_mb-4xl {
+.g_mb-3xl {
     margin-bottom: 256px;
 }
 
@@ -383,15 +398,15 @@
     padding: 16px;
 }
 
-.g_p-2xl {
+.g_p-xl {
     padding: 64px;
 }
 
-.g_p-3xl {
+.g_p-2xl {
     padding: 128px;
 }
 
-.g_p-4xl {
+.g_p-3xl {
     padding: 256px;
 }
 /* py - padding Y */
@@ -407,15 +422,15 @@
     padding: 16px 0;
 }
 
-.g_py-2xl {
+.g_py-xl {
     padding: 64px 0;
 }
 
-.g_py-3xl {
+.g_py-2xl {
     padding: 128px 0;
 }
 
-.g_py-4xl {
+.g_py-3xl {
     padding: 256px 0;
 }
 /* px - padding X */
@@ -431,15 +446,15 @@
     padding: 0 16px;
 }
 
-.g_px-2xl {
+.g_px-xl {
     padding: 0 64px;
 }
 
-.g_px-3xl {
+.g_px-2xl {
     padding: 0 128px;
 }
 
-.g_px-4xl {
+.g_px-3xl {
     padding: 0 256px;
 }
 
@@ -456,15 +471,15 @@
     padding-left: 16px;
 }
 
-.g_pl-2xl {
+.g_pl-xl {
     padding-left: 64px;
 }
 
-.g_pl-3xl {
+.g_pl-2xl {
     padding-left: 128px;
 }
 
-.g_pl-4xl {
+.g_pl-3xl {
     padding-left: 256px;
 }
 
@@ -482,15 +497,15 @@
     padding-right: 16px;
 }
 
-.g_pr-2xl {
+.g_pr-xl {
     padding-right: 64px;
 }
 
-.g_pr-3xl {
+.g_pr-2xl {
     padding-right: 128px;
 }
 
-.g_pr-4xl {
+.g_pr-3xl {
     padding-right: 256px;
 }
 
@@ -507,15 +522,15 @@
     padding-top: 16px;
 }
 
-.g_pt-2xl {
+.g_pt-xl {
     padding-top: 64px;
 }
 
-.g_pt-3xl {
+.g_pt-2xl {
     padding-top: 128px;
 }
 
-.g_pt-4xl {
+.g_pt-3xl {
     padding-top: 256px;
 }
 
@@ -532,15 +547,15 @@
     padding-bottom: 16px;
 }
 
-.g_pb-2xl {
+.g_pb-xl {
     padding-bottom: 64px;
 }
 
-.g_pb-3xl {
+.g_pb-2xl {
     padding-bottom: 128px;
 }
 
-.g_pb-4xl {
+.g_pb-3xl {
     padding-bottom: 256px;
 }
 
@@ -557,15 +572,15 @@
     gap: 16px;
 }
 
-.g_gap-2xl {
+.g_gap-xl {
     gap: 64px;
 }
 
-.g_gap-3xl {
+.g_gap-2xl {
     gap: 128px;
 }
 
-.g_gap-4xl {
+.g_gap-3xl {
     gap: 256px;
 }
 
@@ -669,15 +684,15 @@
     border-radius: 16px;
 }
 
-.g_radius-2xl {
+.g_radius-xl {
     border-radius: 64px;
 }
 
-.g_radius-3xl {
+.g_radius-2xl {
     border-radius: 128px;
 }
 
-.g_radius-4xl {
+.g_radius-3xl {
     border-radius: 256px;
 }
 
@@ -1025,7 +1040,7 @@
 }
 
 /* c - container */
-@media (max-width: 700px) {
+@media (max-width: 750px) {
     .g_c,
     .g_container {
         max-width: 100%;
@@ -1034,10 +1049,10 @@
     }
 }
 
-@media (min-width: 701px) {
+@media (min-width: 751px) {
     .g_c,
     .g_container {
-        width: 700px;
+        min-width: 750px;
         margin: 0 auto;
         padding: 15px;
     }
