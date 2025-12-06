@@ -411,51 +411,63 @@
 }
 /* py - padding Y */
 .g_py-sm {
-    padding: 4px 0;
+    padding-top: 4px;
+    padding-bottom: 4px;
 }
 
 .g_py-md {
-    padding: 8px 0;
+    padding-top: 8px;
+    padding-bottom: 8px;
 }
 
 .g_py-lg {
-    padding: 16px 0;
+    padding-top: 16px;
+    padding-bottom: 16px;
 }
 
 .g_py-xl {
-    padding: 64px 0;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.g_py-xl {
+    padding-top: 128px;
+    padding-bottom: 128px;
 }
 
 .g_py-2xl {
-    padding: 128px 0;
-}
-
-.g_py-3xl {
-    padding: 256px 0;
+    padding-top: 256px;
+    padding-bottom: 256px;
 }
 /* px - padding X */
 .g_px-sm {
-    padding: 0 4px;
+    padding-left: 4px;
+    padding-right: 4px;
 }
 
 .g_px-md {
-    padding: 0 8px;
+    padding-left: 8px;
+    padding-right: 8px;
 }
 
 .g_px-lg {
-    padding: 0 16px;
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 .g_px-xl {
-    padding: 0 64px;
+    padding-left: 64px;
+    padding-right: 64px;
 }
 
 .g_px-2xl {
-    padding: 0 128px;
+    padding-left: 128px;
+    padding-right: 128px;
 }
 
 .g_px-3xl {
-    padding: 0 256px;
+    padding-left: 256px;
+    padding-right: 256px;
 }
 
 /* pl - padding left */
