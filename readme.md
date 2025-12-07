@@ -14,4 +14,4 @@ index.html - < link rel="stylesheet" href="./index.css">
 
 ✅ 0 бойлерплейта  
 ✅ g\_ префикс для изоляции  
-✅ 12.6 kB
+✅ 13-14 kB +

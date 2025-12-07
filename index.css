@@ -1098,16 +1098,11 @@
     display: none;
 }
 
-.g_overflow-hidden,
-.g_ovh {
-    overflow: hidden;
-}
-
 .g_spinner {
-    border-top: 4px solid rgb(0, 110, 255);
-    border-left: 4px solid rgb(0, 110, 255);
-    border-bottom: 4px solid rgb(0, 110, 255);
-    border-right: 4px solid rgb(223, 223, 224);
+    border-top: 4px solid var(--accent);
+    border-left: 4px solid var(--accent);
+    border-bottom: 4px solid var(--accent);
+    border-right: 4px solid transparent;
 
     border-radius: 50%;
     width: 36px;
@@ -1122,4 +1117,26 @@
     100% {
         transform: rotate(360deg);
     }
+}
+
+/* overflow */
+
+.g_ow-y-auto,
+.g_overflow-y-auto {
+    overflow-y: auto;
+}
+
+.g_ow-x-auto,
+.g_overflow-x-auto {
+    overflow-x: auto;
+}
+
+.g_ow-auto,
+.g_overflow-auto {
+    overflow: auto;
+}
+
+.g_overflow-hidden,
+.g_ovh {
+    overflow: hidden;
 }
