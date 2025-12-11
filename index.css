@@ -173,8 +173,16 @@
     width: 100%;
 }
 
+.g_w-full-absolute {
+    width: 100vw;
+}
+
 .g_h-full {
     height: 100%;
+}
+
+.g_h-full-absolute {
+    height: 100vh;
 }
 
 .g_w-fit {
