@@ -1,3 +1,5 @@
+**https://github.com/syntax-91/atom-css**
+
 for use:
 
 # vanilla.js
@@ -13,8 +15,8 @@ index.html - < link rel="stylesheet" href="./index.css">
 ## Что внутри?
 
 ✅ 0 бойлерплейта  
-✅ g\_ префикс для изоляции  
-✅ 13-14 kB +
+✅ g - префикс для изоляции (пример: "g_p-md" - padding 8px)
+✅ 15kB +
 
 Брейкпоинты:
 
@@ -26,12 +28,14 @@ index.html - < link rel="stylesheet" href="./index.css">
 -   3xl - 128px
 -   4xl - 256px
 
-!!!рекомендаций
+**рекомендаций**
 
 разделение ответственности:
-❌ className="myCustomClass g_p-md myCustomClass g_my-md myCustomClass"
 
-✅ className={clsx("myCustomClass myCustomClass block", "g_p-md g_my-md")}
+❌ `className="myCustomClass g_p-md myCustomClass g_my-md myCustomClass"`
+
+✅ `className={clsx("myCustomClass myCustomClass block", "g_p-md g_my-md")}`
 
 адаптив:
-✅ `className={clsx(isMobile && "g_p-sm g_mx-lg", !isMobile && "g_p-lg")}`
+
+`className={clsx(isMobile && "g_p-sm g_mx-lg", !isMobile && "g_p-lg")}`

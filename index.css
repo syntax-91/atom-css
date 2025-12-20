@@ -17,6 +17,8 @@
 	2xl - 24px
 	3xl - 30px
 	4xl - 36px
+
+	
 */
 
 /* text */
@@ -720,8 +722,6 @@
     border-radius: 50%;
 }
 
-/* for testing app */
-
 /* border */
 .g_border-debug {
     border: 1px solid red;
@@ -741,8 +741,26 @@
 
 /*bg*/
 
+/* bg-blur */
+
+.g_bg-blur-sm {
+    background-color: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3px);
+}
+
+.g_bg-blur,
+.g_bg-blur-md {
+    background-color: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(5px);
+}
+
+.g_bg-blur-lg {
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(7px);
+}
+
 .g_bg-debug {
-    background-color: #0abf8f33;
+    background-color: #454a4a33;
 }
 
 /* red */
@@ -857,6 +875,10 @@
 }
 
 /* white */
+.g_bg-white-absolute {
+    background-color: #ffffff;
+}
+
 .g_bg-white-100 {
     background-color: #f2f2f2;
 }
@@ -894,6 +916,10 @@
 }
 
 /* black */
+.bg_black-absolute {
+    background-color: #000;
+}
+
 .g_bg-black-100 {
     background-color: #e6e6e6;
 }
@@ -1089,6 +1115,122 @@
 
 .g_fixed {
     position: fixed;
+}
+
+/* top */
+.g_top-sm {
+    top: 4px;
+}
+
+.g_top-md {
+    top: 8px;
+}
+
+.g_top-lg {
+    top: 16px;
+}
+
+.g_top-xl {
+    top: 32px;
+}
+
+.g_top-2xl {
+    top: 64px;
+}
+
+.g_top-3xl {
+    top: 128px;
+}
+
+.g_top-4xl {
+    top: 256px;
+}
+
+/* left */
+.g_left-sm {
+    left: 4px;
+}
+
+.g_left-md {
+    top: 8px;
+}
+
+.g_left-lg {
+    left: 16px;
+}
+
+.g_left-xl {
+    left: 32px;
+}
+
+.g_left-2xl {
+    left: 64px;
+}
+
+.g_left-3xl {
+    left: 128px;
+}
+
+.g_left-4xl {
+    left: 256px;
+}
+
+/* bottom */
+.g_bottom-sm {
+    bottom: 4px;
+}
+
+.g_bottom-md {
+    bottom: 8px;
+}
+
+.g_bottom-lg {
+    bottom: 16px;
+}
+
+.g_bottom-xl {
+    bottom: 32px;
+}
+
+.g_bottom-2xl {
+    bottom: 64px;
+}
+
+.g_bottom-3xl {
+    bottom: 128px;
+}
+
+.g_bottom-4xl {
+    bottom: 256px;
+}
+
+/* right */
+.g_right-sm {
+    right: 4px;
+}
+
+.g_right-md {
+    right: 8px;
+}
+
+.g_right-lg {
+    right: 16px;
+}
+
+.g_right-xl {
+    right: 32px;
+}
+
+.g_right-2xl {
+    right: 64px;
+}
+
+.g_right-3xl {
+    right: 128px;
+}
+
+.g_right-4xl {
+    right: 256px;
 }
 
 /* other */
