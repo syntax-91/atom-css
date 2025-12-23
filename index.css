@@ -21,11 +21,44 @@
 	
 */
 
+/* display */
+.g_block {
+    display: block;
+}
+
+.g_inline {
+    display: inline;
+}
+
+.g_inline_block {
+    display: inline-block;
+}
+
 /* text */
 .g_text-nowrap {
     white-space: nowrap;
 }
 
+/* text align */
+.g_text-left {
+    text-align: left;
+}
+
+.g_text-center {
+    text-align: center;
+}
+
+.g_text-right {
+    text-align: right;
+}
+
+.g_text-ellipsis {
+    overflow: hidden;
+    text-shadow: ellipsis;
+    white-space: nowrap;
+}
+
+/* size */
 .g_text-sm {
     font-size: 12px;
 }
@@ -58,23 +91,7 @@
     font-size: 36px;
 }
 
-/* text align */
-.g_text-center {
-    text-align: center;
-}
-
 /* fw - font weight */
-.g_fw-100 {
-    font-weight: 100;
-}
-
-.g_fw-200 {
-    font-weight: 200;
-}
-
-.g_fw-300 {
-    font-weight: 300;
-}
 
 .g_fw-400 {
     font-weight: 400;
@@ -92,14 +109,6 @@
     font-weight: 700;
 }
 
-.g_fw-800 {
-    font-weight: 800;
-}
-
-.g_fw-900 {
-    font-weight: 900;
-}
-
 /* flex */
 
 .g_flex {
@@ -107,53 +116,47 @@
 }
 
 .g_flex-center {
-    display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.g_justify-start {
-    display: flex;
+/* justify */
+
+.g_jc-start {
     justify-content: flex-start;
 }
 
-.g_justify-center {
-    display: flex;
+.g_jc-center {
     justify-content: center;
 }
 
-.g_justify-between {
-    display: flex;
+.g_jc-between {
     justify-content: space-between;
 }
 
-.g_justify-around {
-    display: flex;
+.g_jc-aground {
     justify-content: space-around;
 }
 
-.g_justify-end {
-    display: flex;
+.g_jc-end {
     justify-content: flex-end;
 }
 
-.g_align-start {
-    display: flex;
+/* align */
+
+.g_ai-start {
     align-items: flex-start;
 }
 
-.g_align-center {
-    display: flex;
+.g_ai-center {
     align-items: center;
 }
 
-.g_align-stretch {
-    display: flex;
+.g_ai-stretch {
     align-items: stretch;
 }
 
-.g_align-end {
-    display: flex;
+.g_ai-end {
     align-items: flex-end;
 }
 
@@ -165,7 +168,13 @@
     flex-wrap: nowrap;
 }
 
-.g_flex-column {
+/* direction */
+
+.g_flex-row {
+    flex-direction: row;
+}
+
+.g_flex-col {
     flex-direction: column;
 }
 
@@ -175,7 +184,7 @@
     width: 100%;
 }
 
-.g_w-full-absolute {
+.g_w-screen {
     width: 100vw;
 }
 
@@ -183,7 +192,7 @@
     height: 100%;
 }
 
-.g_h-full-absolute {
+.g_h-screen {
     height: 100vh;
 }
 
@@ -244,11 +253,6 @@
 
 .g_my-xl {
     margin-top: 64px;
-    margin-bottom: 64px;
-}
-
-.g_my-xl {
-    margin-top: 128px;
     margin-bottom: 64px;
 }
 
@@ -653,44 +657,16 @@
 }
 
 /* transition */
-.g_tr-100 {
-    transition: all 0.1s ease-in-out;
+.g_tr-bg {
+    transition: background-color 0.1s ease-in-out;
 }
 
-.g_tr-200 {
-    transition: all 0.2s ease-in-out;
+.g_tr-op {
+    transition: opacity 0.1s ease-in-out;
 }
 
-.g_tr-300 {
-    transition: all 0.3s ease-in-out;
-}
-
-.g_tr-400 {
-    transition: all 0.4s ease-in-out;
-}
-
-.g_tr-500 {
-    transition: all 0.5s ease-in-out;
-}
-
-.g_tr-600 {
-    transition: all 0.6s ease-in-out;
-}
-
-.g_tr-700 {
-    transition: all 0.7s ease-in-out;
-}
-
-.g_tr-800 {
-    transition: all 0.8s ease-in-out;
-}
-
-.g_tr-900 {
-    transition: all 0.9s ease-in-out;
-}
-
-.g_tr-1000 {
-    transition: all 1s ease-in-out;
+.g_tr-tf {
+    transition: transform 0.1s ease-in-out;
 }
 
 /* radius */
@@ -768,32 +744,8 @@
     background-color: #ffcccc;
 }
 
-.g_bg-red-200 {
-    background-color: #ff9999;
-}
-
-.g_bg-red-300 {
-    background-color: #ff6666;
-}
-
-.g_bg-red-400 {
-    background-color: #ff3333;
-}
-
 .g_bg-red-500 {
     background-color: #ff0000;
-}
-
-.g_bg-red-600 {
-    background-color: #cc0000;
-}
-
-.g_bg-red-700 {
-    background-color: #990000;
-}
-
-.g_bg-red-800 {
-    background-color: #660000;
 }
 
 .g_bg-red-900 {
@@ -805,32 +757,8 @@
     background-color: #ccffcc;
 }
 
-.g_bg-green-200 {
-    background-color: #99ff99;
-}
-
-.g_bg-green-300 {
-    background-color: #66ff66;
-}
-
-.g_bg-green-400 {
-    background-color: #33ff33;
-}
-
 .g_bg-green-500 {
     background-color: #00ff00;
-}
-
-.g_bg-green-600 {
-    background-color: #00cc00;
-}
-
-.g_bg-green-700 {
-    background-color: #009900;
-}
-
-.g_bg-green-800 {
-    background-color: #006600;
 }
 
 .g_bg-green-900 {
@@ -842,32 +770,8 @@
     background-color: #ccccff;
 }
 
-.g_bg-blue-200 {
-    background-color: #9999ff;
-}
-
-.g_bg-blue-300 {
-    background-color: #6666ff;
-}
-
-.g_bg-blue-400 {
-    background-color: #3333ff;
-}
-
 .g_bg-blue-500 {
     background-color: #0000ff;
-}
-
-.g_bg-blue-600 {
-    background-color: #0000cc;
-}
-
-.g_bg-blue-700 {
-    background-color: #000099;
-}
-
-.g_bg-blue-800 {
-    background-color: #000066;
 }
 
 .g_bg-blue-900 {
@@ -883,32 +787,8 @@
     background-color: #f2f2f2;
 }
 
-.g_bg-white-200 {
-    background-color: #e6e6e6;
-}
-
-.g_bg-white-300 {
-    background-color: #d9d9d9;
-}
-
-.g_bg-white-400 {
-    background-color: #cccccc;
-}
-
 .g_bg-white-500 {
     background-color: #bfbfbf;
-}
-
-.g_bg-white-600 {
-    background-color: #b3b3b3;
-}
-
-.g_bg-white-700 {
-    background-color: #a6a6a6;
-}
-
-.g_bg-white-800 {
-    background-color: #999999;
 }
 
 .g_bg-white-900 {
@@ -916,40 +796,12 @@
 }
 
 /* black */
-.bg_black-absolute {
+.g_bg-black-absolute {
     background-color: #000;
-}
-
-.g_bg-black-100 {
-    background-color: #e6e6e6;
-}
-
-.g_bg-black-200 {
-    background-color: #cccccc;
-}
-
-.g_bg-black-300 {
-    background-color: #b3b3b3;
-}
-
-.g_bg-black-400 {
-    background-color: #999999;
 }
 
 .g_bg-black-500 {
     background-color: #808080;
-}
-
-.g_bg-black-600 {
-    background-color: #666666;
-}
-
-.g_bg-black-700 {
-    background-color: #4d4d4d;
-}
-
-.g_bg-black-800 {
-    background-color: #333333;
 }
 
 .g_bg-black-900 {
@@ -965,32 +817,8 @@
     background-color: #f5f5f5;
 }
 
-.g_bg-gray-200 {
-    background-color: #e0e0e0;
-}
-
-.g_bg-gray-300 {
-    background-color: #cccccc;
-}
-
-.g_bg-gray-400 {
-    background-color: #b8b8b8;
-}
-
 .g_bg-gray-500 {
     background-color: #a3a3a3;
-}
-
-.g_bg-gray-600 {
-    background-color: #8f8f8f;
-}
-
-.g_bg-gray-700 {
-    background-color: #7a7a7a;
-}
-
-.g_bg-gray-800 {
-    background-color: #666666;
 }
 
 .g_bg-gray-900 {
@@ -1152,7 +980,7 @@
 }
 
 .g_left-md {
-    top: 8px;
+    left: 8px;
 }
 
 .g_left-lg {
